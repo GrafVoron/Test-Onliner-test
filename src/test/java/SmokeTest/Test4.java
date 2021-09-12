@@ -24,7 +24,7 @@ public class Test4 {
         Thread.sleep(2000);
 
         // click button Войти and get error message
-        driver.findElement(By.xpath("//div[@id='auth-container']/div/div[2]/div/form/div[3]/button")).click();
+        driver.findElement(By.xpath("//div[text()='Войти']")).click();
         Thread.sleep(2000);
 
         // close browser
