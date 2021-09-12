@@ -20,11 +20,11 @@ public class Test5 {
         Thread.sleep(2000);
 
         // click on Apple
-        driver.findElement(By.xpath("//div[@id='container']/div/div/div/div/div/ul/ul/li[6]")).click();
+        driver.findElement(By.id("Apple")).click();
         Thread.sleep(2000);
 
         // click on Mi
-        driver.findElement(By.xpath("//div[@id='container']/div/div/div/div/div/ul/ul/li[5]")).click();
+        driver.findElement(By.id("Xiaomi")).click();
         Thread.sleep(2000);
 
 
